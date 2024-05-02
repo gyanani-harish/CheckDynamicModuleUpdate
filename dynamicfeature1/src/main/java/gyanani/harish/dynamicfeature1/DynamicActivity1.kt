@@ -10,7 +10,7 @@ class DynamicActivity1: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dynamic1)
         findViewById<TextView>(R.id.dtxt).setOnClickListener {
-            Toast.makeText(this@DynamicActivity1, "Dynamic Module Updated to v5", Toast.LENGTH_LONG).show()
+            Toast.makeText(this@DynamicActivity1, "Dynamic Module Updated to v7 with module installed check", Toast.LENGTH_LONG).show()
         }
     }
 }

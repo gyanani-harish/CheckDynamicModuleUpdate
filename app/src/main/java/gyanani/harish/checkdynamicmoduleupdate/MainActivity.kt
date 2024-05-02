@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         manager = SplitInstallManagerFactory.create(this)
         findViewById<TextView>(R.id.txt).setOnClickListener {
-            if(getStringFromSharedPreferences(this@MainActivity, key, "") == myString){
+            if(manager.installedModules.contains(DYNAMIC_MODULE) && getStringFromSharedPreferences(this@MainActivity, key, "") == myString){
                 toastAndLog("DO NOT DOWNLOAD AGAIN")
                 openActivity()
                 return@setOnClickListener

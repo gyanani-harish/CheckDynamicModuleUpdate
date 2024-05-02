@@ -9,7 +9,7 @@
         android:id="@+id/dtxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dynamic Module Dynamic Activity1 v5"
+        android:text="Dynamic Module Dynamic Activity1 v7 double condition"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
